@@ -1,0 +1,78 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    font-family: 'source sans pro', sans-serif;
+}
+header {
+    background-color: navy;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 3em;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+}
+h3 {
+    font-size: 18px;
+    padding-bottom: 15px;
+    font-weight: bold;
+    color: navy;
+}
+form {
+    border: 2px solid navy;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    padding: 15px 0;
+}
+input[type="text"] {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    font-size: 12px;
+    line-height: 30px;
+    border: none;
+}
+.input {
+    display: block;
+    width: 320px;
+}
+.date, .priority {
+    display: inline-block;
+    width: 157px;
+}
+input[type=submit] {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 30px;
+    background-color: lightblue;
+    color: navy;
+    border: 2px solid navy;
+    border-radius: 5px;
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'source sans pro', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+}
+.list {
+    padding: 10px 15px;;
+    width: 320px;
+    margin: 0 auto;
+    text-align: left;
+    border: 2px solid navy;
+    border-radius: 5px;
+}
+:focus {
+    outline: none;
+}
+::-webkit-input-placeholder {
+    font-size: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
