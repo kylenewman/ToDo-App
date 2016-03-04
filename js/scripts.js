@@ -7,7 +7,7 @@ var listItems = [],
 
 function renderItem(item) {
   var li = document.createElement('li');
-  li.innerHTML = item.priority + ". " + item.title + "     Due: " + item.date;
+  li.innerHTML = item.priority + ". " + item.title + " Due: " + item.date;
   list.appendChild( li );
 }
 
